@@ -1,0 +1,22 @@
+.header {
+  #dso_brand {
+    background-image : url("../../images/dso_logo.jpeg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    width            : 200px;
+    display          : block;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header {
+    padding-left : 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
